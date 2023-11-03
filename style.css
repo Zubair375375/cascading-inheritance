@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+    /* last rule */
+    h1{
+        color: blue;
+    }
+    p{
+        color: purple;
+    }
+    .intro{
+        color: green;
+    }
+
+    /* specificity */
+    p.second_para{
+        color: brown;
+    }
+    div h2{
+        color: rgb(43, 255, 135);
+    }
+
+    /* Inheritance */
+    .box{
+        background: black;
+        color: white;
+        width: 20rem;
+        margin: 10rem;
+        padding: 2rem;
+    }
+    div.inside_box{
+        background: red;
+        color: black;
+        padding: 2rem;
+    }
+    div.inside_box p{
+        color: inherit;
+        padding: inherit;
+    }
